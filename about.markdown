@@ -16,6 +16,5 @@ stack. I played various roles from a L2.5 support engineer to the current chief 
 multiple patent pending ideas. Also have variety of articles published in IP.COM and also actively doing guest lecturing and remote mentoring in various institutes with in Karnataka. 
 
 Currently my area of focus is bringing in digital transformation & infuse AI into Services related to Workplace Support. 
-My current area of specialisation is  Enterprise Architecture, Cloud Computing and AIML. 
+My current area of specialisation is  Enterprise Architecture, Cloud Computing and AIML. I am also a certified AWS Cloud Practioner.
 
-[Tweet me @saransathy](https://twitter.com/saransathy) and check me out in [LinkedIn - drsaravan](https://www.linkedin.com/in/drsaravan/)
