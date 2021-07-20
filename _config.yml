@@ -21,13 +21,12 @@
 title: DRS's Blog
 email: saransathy@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Myself, Saravanan Devendran, goes by my initials DRS, created this Blogsite 
-  primarily to share my knowledge with others on various topics which could
-  benefit the community. 
+  Myself, DRS, Created this Blogsite primarily to share my knowledge with others on various topics which could benefit the community. 
 baseurl: "/drsblog" # the subpath of your site, e.g. /blog
 url: "https://saransathy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saransathy
 github_username:  saransathy
+linkedin_username: drsaravan
 
 # Build settings
 theme: minima
