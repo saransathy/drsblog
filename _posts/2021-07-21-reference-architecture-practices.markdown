@@ -30,6 +30,7 @@ The Reference Architecture can also be called as Architecture Framework. In this
 ![Five Pillars and Four Dimensions]({{site.baseurl}}/assets/img/5PillarsAnd4Dimensions.png)
 
 As seen very clearly that the five pillars and 4 dimensions is the foundation for the reference architecture or the framework. All this is good, one question you may have in mind will be "Can I get more details on the five pillars which is mentioned here?". Let me try answering that question to the best of my knowledge here:
+
 **Security and Compliance**
 * Identity and Access Management
 * Encryption & Cryptography
