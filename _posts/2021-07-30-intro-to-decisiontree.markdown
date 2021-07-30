@@ -882,6 +882,9 @@ print('\nClassification Report\n', classification_report(y_test, y_pred_en))
 3. In both the models, the training-set and test-set accuracy score is the same. It may happen because of small dataset.
 4. The confusion matrix and classification report shows very good model performance.
 
+## Jupyter Notebook Download
+[Click here to download the notebook]({{site.baseurl}}/assets/notebooks/intro-to-decisiontree.ipynb)
+
 ## Reference Links
 1. [https://www.geeksforgeeks.org/decision-tree-introduction-example/](https://www.geeksforgeeks.org/decision-tree-introduction-example/)
 2. [https://www.kaggle.com/prashant111/decision-tree-classifier-tutorial](https://www.kaggle.com/prashant111/decision-tree-classifier-tutorial)
