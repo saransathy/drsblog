@@ -3,6 +3,7 @@ layout: post
 title:  "Right way to learn AIML"
 date:   2021-07-20 17:00:00 +0530
 categories: it
+author: Saravanan Devendran [DRS]
 ---
 I am taking AIML mentoring sessions for last 12 months and one of the common questions people ask is what is the right way to learn machine learning. Many institutes today offer AIML certification programs including crash courses. But if you want to self learn then what is the right way ? I want to share my experience here which would help to learn in the right way.
 

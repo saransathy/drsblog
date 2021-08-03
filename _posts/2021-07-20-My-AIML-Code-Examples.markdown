@@ -3,6 +3,7 @@ layout: post
 title:  "My AIML Code Examples"
 date:   2021-07-20 15:00:00 +0530
 categories: archive
+author: Saravanan Devendran [DRS]
 ---
 I completed my Post Graduate Diploma Certification in Great Lakes Institute of Technology in 2019. Its a year long course and as part of the course I did various projects. This blog provides the complete list of those project source codes:
 

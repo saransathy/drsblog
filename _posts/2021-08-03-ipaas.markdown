@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "What is Integration Platform ?"
+date:   2021-08-03 20:00:00 +0530
+categories: it
+author: Saravanan Devendran [ DRS ]
+---
+Lately I have been doing lot of work on Lean / No-Code approach for software development and integrations. One of the interesting area I did quite an amount of research and study is on iPaaS solutions. I thought of sharing what I learnt in this area as a quick read to all of you in a vendor agnostic manner.
+
+Before jumping into what is this term **iPaaS**, I want to start with a familiar topic for many of us which is **Enterprise Service Bus**. **Enterprise Service Bus(ESB)** is an architecture pattern that enables disparate applications to connect seamlessly with each other. It’s a kind of middleware that has capabilities such as data transformation (such as XML to JSON), protocol transformation (like FTP to HTTP), content-based message routing and service orchestration. Many vendors converted this concept into an ESB product with standard connectors. The key benefits of using an ESB-based tool are faster time to market, re-usability, and agility. 
+
+Now let's take this ESB into Cloud, which delivers a cloud service for application, data, process, and service-oriented architecture (SOA) integration scenarios. This is what called as **Integration Platform as a Service (iPaaS)**. Now you understood what the term **iPaaS** stands for. So you can think iPaaS simply as Enterprise Service Bus in cloud, but that's not true. iPaaS is a platform that connects otherwise disjointed systems to deliver a unified solution to customers. It acts as a bridge for communication between multiple systems — allowing for integration and data sharing. ESB and iPaaS are bridges between two applications, but they offer completely different solutions. The first distinction is that an ESB works on-premises, while iPaaS are cloud-based solutions. That doesn't mean that an ESB won't be able to integrate with a cloud application, but it makes the connection less viable.
+Scalability is also different for ESB and iPaaS. In a company using iPaaS, integrating new applications is easy. iPaaS usually allows you to create as many connections as you want between the hundreds of applications they support. However, in a company working with ESB, it can take months to implement a new app.
+
+As per the report of [Gartner](https://www.gartner.com/), iPaaS solutions should come with capabilities listed below:
+- Communication protocol connectors like FTP, HTTP, and others
+- Application connectors for SaaS & on-premises packaged applications
+- Data formats such as XML, JSON, Abstract Syntax Notation One and others
+- Data standards such as Electronic Data Interchange for Administration, Health Level Seven (HL7) and others
+- Data transformation
+- Routing & orchestration
+- Integration flow operational monitoring
+- Integration lifecycle management tool
+
+Here I am trying to list down the key features you should look for in any iPaaS provider:
+
+**Single Platform:** Provides a multi-tenant platform that supports cloud-to-cloud, cloud-to-on-premise, on-premise-to-on-premise and B2B integration. Instead of developing & piecing together separate software to solve problems, developers can use a platform that connects to all of their software in one convenient cloud-based location, thereby eliminating the need to source and deploy their technology in different environments. 
+
+**Lean / No-Code:** Provides Drag & Drop Interface which eliminates the need of deep development skills for integrations. With the intuitive graphical user interface, a business can design, organize, and deploy integration workflows for on-premise and cloud applications. The graphical interface also allows creating and handling APIs through clicks. It enables visual API-based business processes and connects APIs in a few seconds. This capability empowers both technical and non-technical users to create integrations to streamline business processes. This easy-to-use interface facilitates everyone to generate workflows with no codes. Offers integration connectors as the templates, for subsequent adjustments and configurations. Allows integration by cloning and customizing the available applications. Offers universal translation competencies for non-standard data formats
+
+**Connectivity and Integration** Ever-enhancing list of the connector is one of the boundless features of the iPaaS platform.. Connectors allow triggering integration workflows and receiving data from & pushing data to several diverse applications on-premise or cloud through various protocols. Less time switching between tools means more time for work and a central place where all of the work is done. 
+
+**Routing and Orchestration:** Routing feature routes data from one app to another in accordance with the configuration. Additionally, the iPaaS software includes a robust orchestration engine, which is capable to handle complex workflows. It orchestrates integration solutions and defines how & what data can go through configuration. They offer the workflow visual designers to create, build, and handle the integration workflows. Generally, their workflows are serverless, therefore, it is enough to concentrate on the business value and functionality as the other scaling and infrastructure are fully abstracted. Some iPaaS solutions include low-code orchestration that enhances the speed and comfort of designing business logic. Application orchestration offers:
+- A method to integrate, which decouples apps from each other
+- A way to handle and monitor integration centrally
+- Abilities for security, message routing, reliability and transformation
+
+**Accelerate Data Transformation / Real-Time Processing:** When working with multiple systems and applications, there will be incompatibility between inputs and outputs. To ensure data integrity in all integrated applications, iPaaS handle the entire needs of data transformation, supports real-time integration and scales to meet the high-volume demands of mobile, extract, transform and load (ETL) and electronic data interchange (EDI) environments, thereby eliminating delays in access and providing a quick and accessible solution. Visualize Integrated Data and Make better decisions.
+
+**Centralized Management / Increased Efficiency:** Provides a single, virtual view for managing all connections across the platform. Instead of having one individual or team manage different integrations, all of them can be accessed from a single console. This Mitigates confusion, data loss, and inconsistencies hence increased efficiency. Also offers Smart API Versioning and Full API Lifecycle Management.
+
+**Monitoring and Notification:** The iPaaS system offers an in-built monitoring feature that enables to check trigger history, run history, status, performance, etc.
+
+**Multitenancy:** Typically, each tenant that calls upon software requires its own instance. Similar to how every person on a call needs their own phone connection, an instance is created each time someone accesses the software. iPaaS should allow for shared instances among tenants, eliminating overload, reducing costs, and increasing the speed of use.
+
+**Improved Security and Compliance:** Robust security mechanisms like password protection, data encryption security certification, access controls, session management, information security standards and much more. Security threats are inevitable in any environment, especially the cloud. iPaaS solutions should offer fraud detection and intruder alerts. But the real benefit is that a centralized platform makes it easier to see where these threats are and respond adequately. 
+
+All this is good, you decided to use iPaaS and the question in your mind would be is there any best practices while adopting iPaaS in my solution? Yes there are few pointers I have for you:
+1. Create a data integration plan before implementing an iPaaS Solution
+    - Define the goals you want to achieve with data integration
+    - Ask yourself what kind of data you want to integrate
+    - Then Find out where this data lives
+    - Finally determine how the data should flow
+2. Every iPaaS solutions provides different capabilities, hence it’s important to choose a solution that fits the purpose for your solution
+
+Following are few vendors I came across who offers Integration Platform as a Service:
+- [IBM AppConnect](https://www.ibm.com/cloud/app-connect)
+- [SnapLogic](https://www.snaplogic.com)
+- [Microsoft Azure Logic Apps ](https://azure.microsoft.com/en-in/services/logic-apps/)
+- [Workato](https://www.workato.com)
+- [Boomi](https://boomi.com)
+- [ServiceNow Integration Hub](https://www.servicenow.com/products/integration-hub.html)
+
+Hope the information provided here is useful to you. Pass on your comments by tweeting me or through linkedin.

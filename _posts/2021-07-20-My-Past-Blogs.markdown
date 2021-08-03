@@ -3,6 +3,7 @@ layout: post
 title:  "My Past Blogs"
 date:   2021-07-20 10:44:01 +0530
 categories: archive
+author: Saravanan Devendran [DRS]
 ---
 For the past couple of years I have been writing blogs but not in a regular fashion.
 I am not a great writer at the sametime continuously improving my writing capabilities which would help me to

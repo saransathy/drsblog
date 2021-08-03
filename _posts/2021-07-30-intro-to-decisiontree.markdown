@@ -3,6 +3,7 @@ layout: post
 title:  "Introduction to Decision Tree in Supervised Learning"
 date:   2021-07-30 13:00:00 +0530
 categories: it
+author: Saravanan Devendran [DRS]
 ---
 ## Introduction
 
